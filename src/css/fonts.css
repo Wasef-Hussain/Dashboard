@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Graphik";
+  src: url("../assets/fonts/Graphik-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GraphikLight";
+  src: url("../assets/fonts/Graphik-Light.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
