@@ -576,15 +576,13 @@ body {
   width: 50%;
   display: flex;
   justify-content: end;
+  padding: 1vh;
  }
 .workSummaryL {
-  background-color: wheat;
+  background-color: #10131E;
+  display: flex;
   height: 100%;
   width: 50%;
+  padding: 1vh;
 }
 
-.playButtonR {
-  background-color: rgb(146, 96, 3);
-  height: 100%;
-  width: 50%;
-}

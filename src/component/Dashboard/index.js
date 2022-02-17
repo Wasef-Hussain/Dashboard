@@ -18,7 +18,7 @@ function Dashboard() {
                 <div className='chartareaa col-12' >
                     <div className='upper-div'>
                         <div className='workSummaryL newfont' >
-                    <h6 className=' newfont' style={{fontFamily:"", color:"#fff"}} >Your work Summary   </h6> <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#262C44", height: "3vh" }} />
+                    <h6 className=' newfont' style={{fontFamily:"", color:"#fff"}} >Your work Summary   </h6> <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#262C44", height: "2vh", marginLeft:"0.4rem" }} />
                         </div>
 
                         <div className='playButtonR' >
