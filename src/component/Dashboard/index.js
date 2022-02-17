@@ -25,15 +25,23 @@ function Dashboard() {
                         <BsPlayBtnFill style={{fontSize: "3.5vh", color:"#47FFD33B"}} />
                         <BsStopBtnFill  style={{fontSize: "3.5vh", color:"#E85DD536",marginLeft: "0.4rem"}}/>
                         </div>
-                 </div>
+                    </div>
                 </div>
                 <div className='tableareaa col-12' >
 
                 </div>
             </div>
-                <div className='rightarea'>
+            <div className='rightarea' style={{ paddingLeft: '1vh' }}>
+                <div className='col-auto' style={{ width: '52vh', height: '25vh', borderRadius: '10px', background: '#fff', marginTop: '2vh', backgroundColor: '#10131E', border: '1px solid #1B2031' }}>
 
                 </div>
+                <div className='col-auto' style={{ width: '52vh', height: '25vh', borderRadius: '10px', background: '#fff', marginTop: '2vh', backgroundColor: '#10131E', border: '1px solid #1B2031' }}>
+
+                </div>
+                <div className='col-auto' style={{ width: '52vh', height: '38vh', borderRadius: '10px', background: '#fff', marginTop: '2vh', backgroundColor: '#10131E', border: '1px solid #1B2031' }}>
+
+                </div>
+            </div>
         </div>
     )
 }

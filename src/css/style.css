@@ -328,6 +328,18 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+.usernamed {
+  background: #1a1f2f;
+  width: 18vh;
+  padding-top: 3vh;
+  padding-left: 1vh;
+  height: 6vh;
+}
+
+.lifetime {
+  background: #1a1f2f;
+}
+
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
@@ -378,7 +390,7 @@ input[type="number"] {
 .rightarea {
   width: 33%;
   height: 96vh;
-  background-color: red;
+  background-color: #0d1019;
 }
 
 .chartareaa {
@@ -544,7 +556,7 @@ body {
   color: #fff;
   user-select: none;
 }
-.upper-div{
+.upper-div {
   display: flex;
   background-color: blue;
   height: 20%;
@@ -565,3 +577,14 @@ body {
   display: flex;
   justify-content: end;
  }
+.workSummaryL {
+  background-color: wheat;
+  height: 100%;
+  width: 50%;
+}
+
+.playButtonR {
+  background-color: rgb(146, 96, 3);
+  height: 100%;
+  width: 50%;
+}

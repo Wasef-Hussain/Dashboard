@@ -10,6 +10,7 @@ import svgg from './assets/Vector.svg'
 import notselectedMarket from './assets/Union.svg'
 import poly from './assets/Polygon1.svg'
 import sonic from './assets/sonic.svg'
+import magic from './assets/magicpen.svg'
 import { AiOutlineSetting } from "react-icons/ai";
 import { BiHomeAlt } from "react-icons/bi";
 import { BsNewspaper } from "react-icons/bs";
@@ -119,8 +120,13 @@ function Sidebar({ }) {
             <div className='sonicpic'>
               <img src={sonic} style={{ width: '7vh', height: '7vh' }} />
             </div>
-            <div className='userufo' style={{ background: '#fff' }}>
-
+            <div className='userufo' style={{ background: '#1a1f2f', width: '18vh' }}>
+              <div className='usernamed'>
+                <p className='newfont' style={{ color: '#fff' }}>night<span className='newfont' style={{ color: '#343C53' }}>#0709</span></p>
+              </div>
+              <div className='lifetime' style={{ paddingLeft: '1vh' }}>
+                <img src={magic} style={{ width: '2.568vh', height: '2.568vh' }} /> <span className='newfont' style={{ color: '#707995' }}>LifeTime User</span>
+              </div>
             </div>
           </div>
         </div>
