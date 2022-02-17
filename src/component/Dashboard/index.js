@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import { facirclecheck } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlay } from '@fortawesome/free-solid-svg-icons'
 
 
 function Dashboard() {
@@ -10,11 +13,11 @@ function Dashboard() {
                 <div className='chartareaa col-12' >
                     <div className='upper-div'>
                         <div className='workSummaryL' >
-
+                    <p>Your work Summary</p> <FontAwesomeIcon icon="fas fa-check-circle" />
                         </div>
 
                         <div className='playButtonR' >
-
+                        <FontAwesomeIcon icon={faPlay} />
                         </div>
                  </div>
                 </div>
