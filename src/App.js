@@ -63,9 +63,9 @@ function Sidebar({ }) {
   return (
     <div className="col-auto col-3 col-md-2 col-xl-2 px-sm-2 px-0 DarkSidebar" style={{ width: '613px' }}>
       <div className="d-flex flex-column align-items-center align-items-sm-start  min-vh-100 ">
-        <div className='sidebaruppersection'>
-          <img src={poly} />
-          <h2 style={{ color: '#13111E', fontWeight: '900' }}>
+        <div className='sidebaruppersection' style={{ display: 'flex', width: '16rem' }}>
+          <img src={poly} style={{ width: '7rem', height: '7rem' }} />
+          <h2 className='newfont' style={{ color: '#fff', fontWeight: '900', fontSize: '17px' }}>
             <strong>Wallet</strong>
           </h2>
         </div>
