@@ -31,7 +31,7 @@ function App() {
 
             <Sidebar />
 
-            <div className="w-100">
+            <div className="col p-5" style={{ background: '#0D1019' }}>
 
               <Switch>
 
@@ -114,10 +114,10 @@ function Sidebar({ }) {
         </ul>
         <hr />
         <div className="dropdown pb-4">
-          <div className='mb-3' style={{ border: '1px solid #212738', width: '16.7rem', marginLeft: '1rem' }}></div>
-          <div className='innerdrop' style={{ height: '117px', width: '267px', background: '#1A1F2F', marginLeft: '1rem', borderRadius: '10px', display: 'flex' }}>
+          <div className='mb-3' style={{ border: '1px solid #212738', width: '26.86vh', marginLeft: '1rem' }}></div>
+          <div className='innerdrop' style={{ height: '117px', width: '26.86vh', background: '#1A1F2F', marginLeft: '1rem', borderRadius: '10px', display: 'flex' }}>
             <div className='sonicpic'>
-              <img src={sonic} />
+              <img src={sonic} style={{ width: '7vh', height: '7vh' }} />
             </div>
             <div className='userufo'>
 

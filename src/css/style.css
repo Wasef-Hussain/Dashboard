@@ -369,6 +369,30 @@ input[type="number"] {
   border-radius: 15px;
   width: 100%;
 }
+
+.leftarea {
+  width: 67%;
+  height: 96vh;
+  background-color: #fff;
+}
+.rightarea {
+  width: 33%;
+  height: 96vh;
+  background-color: rgb(241, 37, 37);
+}
+
+.chartareaa {
+  background: black;
+  width: 106vh;
+  height: 30rem;
+  margin-bottom: 32px;
+}
+
+.tableareaa {
+  background: black;
+  width: 106vh;
+  height: 38vh;
+}
 .bootstrap-tagsinput input {
   border-radius: 15px;
   border-color: transparent;
@@ -479,7 +503,7 @@ body {
 }
 .selected-nav-item {
   background: rgba(100, 134, 255, 0.07);
-  width: 16rem;
+  width: 27.5vh;
 
   border-radius: 14px;
   display: flex;
@@ -491,8 +515,13 @@ body {
   flex: none;
 }
 
+.sonicpic {
+  padding-left: 10px;
+  padding-top: 23px;
+}
+
 .nav-item {
-  width: 16rem;
+  width: 27.5vh;
 
   background: #10131e;
   border-radius: 14px;
