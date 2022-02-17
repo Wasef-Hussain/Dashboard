@@ -544,3 +544,21 @@ body {
   color: #fff;
   user-select: none;
 }
+.upper-div{
+  display: flex;
+  background-color: blue;
+  height: 20%;
+  width: 100%;
+}
+
+.workSummaryL{
+ background-color: wheat;
+ height: 100%;
+ width: 50%;
+}
+
+.playButtonR{
+  background-color: rgb(146, 96, 3);
+  height: 100%;
+  width: 50%;
+ }
