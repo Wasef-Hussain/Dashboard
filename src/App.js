@@ -117,7 +117,7 @@ function Sidebar({ }) {
           <div className='mb-3' style={{ border: '1px solid #212738', width: '16.7rem', marginLeft: '1rem' }}></div>
           <div className='innerdrop' style={{ height: '117px', width: '267px', background: '#1A1F2F', marginLeft: '1rem', borderRadius: '10px', display: 'flex' }}>
             <div className='sonicpic'>
-
+              <img src={sonic} />
             </div>
             <div className='userufo'>
 
