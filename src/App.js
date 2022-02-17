@@ -9,6 +9,7 @@ import { CgProfile } from "react-icons/cg";
 import svgg from './assets/Vector.svg'
 import notselectedMarket from './assets/Union.svg'
 import poly from './assets/Polygon1.svg'
+import sonic from './assets/sonic.svg'
 import { AiOutlineSetting } from "react-icons/ai";
 import { BiHomeAlt } from "react-icons/bi";
 import { BsNewspaper } from "react-icons/bs";
@@ -113,14 +114,15 @@ function Sidebar({ }) {
         </ul>
         <hr />
         <div className="dropdown pb-4">
-          {/* <p
-            className="small d-flex align-items-center text-white text-decoration-none nav-item nav-link px-0 py-0 align-middle px-md-5 text-white mt-3 mb-1">
-            {version}
-          </p>
-          <a href="#"
-            className="Text-Gold d-flex align-items-center text-white text-decoration-none nav-item nav-link px-0 align-middle px-md-5 text-white py-0 my-0  ">
-            Check for Updates
-          </a> */}
+          <div className='mb-3' style={{ border: '1px solid #212738', width: '16.7rem', marginLeft: '1rem' }}></div>
+          <div className='innerdrop' style={{ height: '117px', width: '267px', background: '#1A1F2F', marginLeft: '1rem', borderRadius: '10px', display: 'flex' }}>
+            <div className='sonicpic'>
+
+            </div>
+            <div className='userufo'>
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
