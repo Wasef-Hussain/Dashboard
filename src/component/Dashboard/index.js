@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
-import { facirclecheck } from '@fortawesome/free-solid-svg-icons'
+import { facirclecheck, faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import { MdSmartDisplay } from "react-icons/md";
+import { BsPlayBtnFill } from "react-icons/bs";
+import { BsStopBtnFill } from "react-icons/bs";
+
+
 
 
 function Dashboard() {
@@ -12,12 +17,13 @@ function Dashboard() {
             <div className='leftarea p-3'>
                 <div className='chartareaa col-12' >
                     <div className='upper-div'>
-                        <div className='workSummaryL' >
-                    <p>Your work Summary</p> <FontAwesomeIcon icon="fas fa-check-circle" />
+                        <div className='workSummaryL newfont' >
+                    <h6 className=' newfont' style={{fontFamily:"", color:"#fff"}} >Your work Summary   </h6> <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#262C44", height: "3vh" }} />
                         </div>
 
                         <div className='playButtonR' >
-                        <FontAwesomeIcon icon={faPlay} />
+                        <BsPlayBtnFill style={{fontSize: "3.5vh", color:"#47FFD33B"}} />
+                        <BsStopBtnFill  style={{fontSize: "3.5vh", color:"#E85DD536",marginLeft: "0.4rem"}}/>
                         </div>
                  </div>
                 </div>

@@ -552,13 +552,16 @@ body {
 }
 
 .workSummaryL{
- background-color: wheat;
+  display: flex;
+ background-color: #10131E;
  height: 100%;
  width: 50%;
 }
 
 .playButtonR{
-  background-color: rgb(146, 96, 3);
+  background-color: #10131E;
   height: 100%;
   width: 50%;
+  display: flex;
+  justify-content: end;
  }
