@@ -36,7 +36,7 @@ function Dashboard() {
 
                 <div className='rightBarL'>
                 <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#262C44", height: "2vh", marginLeft:"0.4rem" }} />
-                <h6 className=' newfont' style={{color:"#3D4665"}}>Bitcoin</h6> <h6 className=' newfont' style={{color:"#D0E3FF"}}>$67,205.10</h6>
+                <h6 className=' newfont' style={{color:"#3D4665"}}>Bitcoin</h6> <h6 className=' newfont' style={{color:"#D0E3FF",fontSize:"1.6rem"}}>$67,205.10</h6>
                 
                 <div className='arrowup'>
                 <FontAwesomeIcon icon={faArrowUp} style={{color:"#47FFD3"}}/> <h6 className=' newfont' style={{color:"#47FFD3"}}>37.8%</h6> <h6 className=' newfont' style={{color:"#3D4665"}}>this week</h6>
@@ -52,7 +52,7 @@ function Dashboard() {
 
                 <div className='rightBarL'>
                 <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#262C44", height: "2vh", marginLeft:"0.4rem" }} />
-                <h6 className=' newfont' style={{color:"#3D4665"}}>Bitcoin</h6> <h6 className=' newfont' style={{color:"#D0E3FF"}}>$67,205.10</h6>
+                <h6 className=' newfont' style={{color:"#3D4665"}}>Bitcoin</h6> <h6 className=' newfont' style={{color:"#D0E3FF",fontSize:"1.6rem"}}>$67,205.10</h6>
                 
                 <div className='arrowup'>
                 <FontAwesomeIcon icon={faArrowUp} style={{color:"#DC59CC"}}/> <h6 className=' newfont' style={{color:"#DC59CC"}}>37.8%</h6> <h6 className=' newfont' style={{color:"#3D4665"}}>this week</h6>
@@ -71,7 +71,7 @@ function Dashboard() {
 
                 <div className='rightBarL'>
                 <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#262C44", height: "2vh", marginLeft:"0.4rem" }} />
-                <h6 className=' newfont' style={{color:"#3D4665"}}>Bitcoin</h6> <h6 className=' newfont' style={{color:"#D0E3FF"}}>$67,205.10</h6> 
+                <h6 className=' newfont' style={{color:"#3D4665"}}>Bitcoin</h6> <h6 className=' newfont' style={{color:"#D0E3FF",fontSize:"1.6rem"}}>$67,205.10</h6> 
                 
                 <div className='arrowup'>
                 <FontAwesomeIcon icon={faArrowUp} style={{color:"#47FFD3"}}/> <h6 className=' newfont' style={{color:"#47FFD3"}}>37.8%</h6> <h6 className=' newfont' style={{color:"#3D4665"}}>this week</h6>
