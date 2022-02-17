@@ -55,7 +55,7 @@ function Dashboard() {
                 <h6 className=' newfont' style={{color:"#3D4665"}}>Bitcoin</h6> <h6 className=' newfont' style={{color:"#D0E3FF"}}>$67,205.10</h6>
                 
                 <div className='arrowup'>
-                <FontAwesomeIcon icon={faArrowUp} style={{color:"#47FFD3"}}/> <h6 className=' newfont' style={{color:"#47FFD3"}}>37.8%</h6> <h6 className=' newfont' style={{color:"#3D4665"}}>this week</h6>
+                <FontAwesomeIcon icon={faArrowUp} style={{color:"#DC59CC"}}/> <h6 className=' newfont' style={{color:"#DC59CC"}}>37.8%</h6> <h6 className=' newfont' style={{color:"#3D4665"}}>this week</h6>
                 </div>
                 </div>
 
