@@ -7,10 +7,10 @@ function Dashboard() {
     return (
         <div className='row'>
             <div className='leftarea p-3'>
-                <div className='chartareaa col-12' style={{ background: 'black' }}>
+                <div className='chartareaa col-12' >
 
                 </div>
-                <div className='tableareaa col-12' style={{ background: 'black' }}>
+                <div className='tableareaa col-12' >
 
                 </div>
             </div>

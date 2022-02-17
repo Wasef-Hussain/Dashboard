@@ -373,25 +373,29 @@ input[type="number"] {
 .leftarea {
   width: 67%;
   height: 96vh;
-  background-color: #fff;
+  background-color: #0d1019;
 }
 .rightarea {
   width: 33%;
   height: 96vh;
-  background-color: rgb(241, 37, 37);
+  background-color: red;
 }
 
 .chartareaa {
-  background: black;
+  background: #10131e;
   width: 106vh;
   height: 30rem;
   margin-bottom: 32px;
+  border: 1px solid #1b2031;
+  border-radius: 10px;
 }
 
 .tableareaa {
-  background: black;
+  background: #10131e;
   width: 106vh;
   height: 38vh;
+  border: 1px solid #1b2031;
+  border-radius: 10px;
 }
 .bootstrap-tagsinput input {
   border-radius: 15px;
