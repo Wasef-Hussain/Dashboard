@@ -36,7 +36,7 @@ function Dashboard() {
 
                 <div className='rightBarL'>
                 <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#262C44", height: "2vh", marginLeft:"0.4rem" }} />
-                <h6 className=' newfont'>Bitcoin</h6> <h6 className=' newfont'>$67,205.10</h6>
+                <h6 className=' newfont' style={{color:"#3D4665"}}>Bitcoin</h6> <h6 className=' newfont' style={{color:"#D0E3FF"}}>$67,205.10</h6>
                 
                 <div className='arrowup'>
                 <FontAwesomeIcon icon={faArrowUp} style={{color:"#47FFD3"}}/> <h6 className=' newfont' style={{color:"#47FFD3"}}>37.8%</h6> <h6 className=' newfont' style={{color:"#3D4665"}}>this week</h6>
@@ -52,7 +52,7 @@ function Dashboard() {
 
                 <div className='rightBarL'>
                 <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#262C44", height: "2vh", marginLeft:"0.4rem" }} />
-                <h6 className=' newfont'>Bitcoin</h6> <h6 className=' newfont'>$67,205.10</h6>
+                <h6 className=' newfont' style={{color:"#3D4665"}}>Bitcoin</h6> <h6 className=' newfont' style={{color:"#D0E3FF"}}>$67,205.10</h6>
                 
                 <div className='arrowup'>
                 <FontAwesomeIcon icon={faArrowUp} style={{color:"#47FFD3"}}/> <h6 className=' newfont' style={{color:"#47FFD3"}}>37.8%</h6> <h6 className=' newfont' style={{color:"#3D4665"}}>this week</h6>
@@ -71,7 +71,7 @@ function Dashboard() {
 
                 <div className='rightBarL'>
                 <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#262C44", height: "2vh", marginLeft:"0.4rem" }} />
-                <h6 className=' newfont'>Bitcoin</h6> <h6 className=' newfont'>$67,205.10</h6>
+                <h6 className=' newfont' style={{color:"#3D4665"}}>Bitcoin</h6> <h6 className=' newfont' style={{color:"#D0E3FF"}}>$67,205.10</h6> 
                 
                 <div className='arrowup'>
                 <FontAwesomeIcon icon={faArrowUp} style={{color:"#47FFD3"}}/> <h6 className=' newfont' style={{color:"#47FFD3"}}>37.8%</h6> <h6 className=' newfont' style={{color:"#3D4665"}}>this week</h6>
@@ -84,7 +84,7 @@ function Dashboard() {
                 </div>
 
                 </div>
-                <div className='col-auto' style={{ width: '52vh', height: '38vh', borderRadius: '10px', background: '#fff', marginTop: '2vh', backgroundColor: '#10131E', border: '1px solid #1B2031' }}>
+                <div className='col-auto' style={{ width: '52vh', height: '38vh', borderRadius: '10px', background: '#fff', marginTop: '2vh', backgroundColor: '#10131E', border: '1px solid #1B2031',display:'flex' }}>
                 <h6 className=' newfont' style={{fontFamily:"", color:"#fff"}} >Daily Earning</h6> <FontAwesomeIcon icon={faCheckCircle} style={{ color: "#262C44", height: "2vh", marginLeft:"0.4rem" }} />
                 </div>
             </div>
