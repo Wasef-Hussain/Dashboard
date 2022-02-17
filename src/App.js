@@ -5,7 +5,12 @@ import { useChromeStorageLocal } from "use-chrome-storage";
 import { Switch, Route, Link } from "react-router-dom";
 import Dashboard from './component/Dashboard';
 import { AiOutlineDashboard } from "react-icons/ai";
+import { CgProfile } from "react-icons/cg";
+import svgg from './assets/Vector.svg'
+import notselectedMarket from './assets/Union.svg'
+import poly from './assets/Polygon1.svg'
 import { AiOutlineSetting } from "react-icons/ai";
+import { BiHomeAlt } from "react-icons/bi";
 import { BsNewspaper } from "react-icons/bs";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons'
@@ -25,7 +30,7 @@ function App() {
 
             <Sidebar />
 
-            <div className="col p-5">
+            <div className="w-100">
 
               <Switch>
 
@@ -56,36 +61,55 @@ function Sidebar({ }) {
 
 
   return (
-    <div className="col-auto col-3 col-md-2 col-xl-2 px-sm-2 px-0 DarkSidebar">
+    <div className="col-auto col-3 col-md-2 col-xl-2 px-sm-2 px-0 DarkSidebar" style={{ width: '613px' }}>
       <div className="d-flex flex-column align-items-center align-items-sm-start  min-vh-100 ">
         <div className='sidebaruppersection'>
+          <img src={poly} />
           <h2 style={{ color: '#13111E', fontWeight: '900' }}>
-            Wallet
+            <strong>Wallet</strong>
           </h2>
         </div>
 
-        <ul className="nav pl-4 nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+        <ul className="nav pl-3 nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
           id="menu" style={{ marginTop: '7rem' }}>
 
-          <li className="nav-item ">
-            <Link to="/" className="nav-link align-middle px-0 ps-md-2 ps-lg-5  text-dark  mt-3 ">
-              <AiOutlineDashboard /><span
-                className="ms-1 d-none d-sm-inline ps-2 ml-3">Dashboard</span>
+          <li className="selected-nav-item mb-3 d-flex ">
+            <Link to="/" className="nav-link align-middle px-0 ps-md-2 ps-lg-5  text-dark  " style={{ display: 'flex' }}>
+              <BiHomeAlt style={{
+                fontSize: '1.6rem', color: '#6486FF'
+              }} /><span
+                className=" d-none d-sm-inline ml-3 mt-1 font-weight-bolder newfont" style={{
+                  fontSize: '15px', color: '#6486FF'
+                }} >Home</span>
             </Link>
           </li>
-          <li className="nav-item ">
-            <Link to="/profiles" className="nav-link align-middle px-0 ps-md-2 ps-lg-5  text-dark  mt-3 ">
-              <BsNewspaper /> <span
-                className="ms-1 d-none d-sm-inline ps-2 ml-3">News</span>
+          <li className="nav-item mb-3" d-flex>
+            <Link to="/profiles" className="nav-link align-middle px-0 ps-md-2 ps-lg-5  text-dark  d-flex">
+              <CgProfile style={{
+                fontSize: '1.6rem', color: '#707995'
+              }} /> <span
+                className=" d-none d-sm-inline ml-3 mt font-weight-bolder newfont" style={{
+                  fontSize: '15px', color: '#707995'
+                }} >News</span>
+            </Link>
+          </li>
+          <li className="nav-item mb-3" d-flex>
+            <Link to="/profiles" className="nav-link align-middle px-0 ps-md-2 ps-lg-5  text-dark  d-flex">
+              <img src={notselectedMarket} style={{
+                fontSize: '1.6rem', color: '#707995', height: '23.46px'
+              }} /> <span
+                className=" d-none d-sm-inline ml-3 mt font-weight-bolder newfont" style={{
+                  fontSize: '15px', color: '#707995'
+                }} >Settings</span>
             </Link>
           </li>
 
 
-          <li>
+          {/* <li>
             <Link to="/settings" className="nav-link px-0 align-middle ps-md-2 ps-lg-5 text-dark mt-3">
-              <AiOutlineSetting /><span
-                className="ms-1 d-none d-sm-inline ps-2 ml-3">Settings</span> </Link>
-          </li>
+              <AiOutlineSetting style={{ fontSize: '2rem' }} /><span
+                className="ms-1 d-none d-sm-inline ps-2 ml-3 font-weight-bolder">Settings</span> </Link>
+          </li> */}
         </ul>
         <hr />
         <div className="dropdown pb-4">
