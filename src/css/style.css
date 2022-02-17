@@ -396,7 +396,7 @@ input[type="number"] {
 .chartareaa {
   background: #10131e;
   width: 106vh;
-  height: 30rem;
+  height: 20rem;
   margin-bottom: 32px;
   border: 1px solid #1b2031;
   border-radius: 10px;
@@ -405,7 +405,7 @@ input[type="number"] {
 .tableareaa {
   background: #10131e;
   width: 106vh;
-  height: 38vh;
+  height: 52vh;
   border: 1px solid #1b2031;
   border-radius: 10px;
 }
@@ -586,3 +586,25 @@ body {
   padding: 1vh;
 }
 
+.rightBarL{
+  background-color: #fff;
+  height: 100%;
+  width: 50%;
+  
+}
+
+.rightBarR{
+  background-color: #fff;
+  height: 100%;
+  width: 50%;
+  
+}
+
+.arrowup{
+  background-color: red;
+  border-radius: 5px;
+  display:flex;
+  margin-left: 5px ;
+  margin-right: 5px ;
+
+}
