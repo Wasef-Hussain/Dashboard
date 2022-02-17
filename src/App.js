@@ -115,11 +115,11 @@ function Sidebar({ }) {
         <hr />
         <div className="dropdown pb-4">
           <div className='mb-3' style={{ border: '1px solid #212738', width: '26.86vh', marginLeft: '1rem' }}></div>
-          <div className='innerdrop' style={{ height: '117px', width: '26.86vh', background: '#1A1F2F', marginLeft: '1rem', borderRadius: '10px', display: 'flex' }}>
+          <div className='innerdrop' style={{ height: '106px', width: '26.86vh', background: '#1A1F2F', marginLeft: '1rem', borderRadius: '10px', display: 'flex' }}>
             <div className='sonicpic'>
               <img src={sonic} style={{ width: '7vh', height: '7vh' }} />
             </div>
-            <div className='userufo'>
+            <div className='userufo' style={{ background: '#fff' }}>
 
             </div>
           </div>
