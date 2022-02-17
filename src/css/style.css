@@ -587,21 +587,21 @@ body {
 }
 
 .rightBarL{
-  background-color: #fff;
+  
   height: 100%;
   width: 50%;
   
 }
 
 .rightBarR{
-  background-color: #fff;
+  
   height: 100%;
   width: 50%;
   
 }
 
 .arrowup{
-  background-color: red;
+  background-color: #181C2B;
   border-radius: 5px;
   display:flex;
   margin-left: 5px ;
