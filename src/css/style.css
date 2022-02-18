@@ -668,8 +668,8 @@ body {
 
 .profileInput{
   width: 100%;
- background-color:  #151A28;
- color: #151A28;
+ background-color:#151A28 !important;
+ color: #151A28 ;
   
 }
 
