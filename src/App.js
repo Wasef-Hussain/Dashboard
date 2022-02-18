@@ -19,6 +19,7 @@ import { faUserCircle } from '@fortawesome/free-solid-svg-icons'
 import { faTasks } from '@fortawesome/free-solid-svg-icons'
 import { faSun } from '@fortawesome/free-solid-svg-icons'
 import { faHome } from '@fortawesome/free-solid-svg-icons'
+import Settings from './component/Dashboard/setting';
 
 
 function App() {
@@ -35,9 +36,8 @@ function App() {
             <div className="col p-5" style={{ background: '#0D1019' }}>
 
               <Switch>
-
-
                 <Route path="/" render={() => <Dashboard />} />
+                <Route path="/setting" component={Settings}/>
                 {/* <Route path="/" render={() => <Task />} /> */}
 
               </Switch>
@@ -96,7 +96,7 @@ function Sidebar({ }) {
             </Link>
           </li>
           <li className="nav-item mb-3" d-flex>
-            <Link to="/profiles" className="nav-link align-middle px-0 ps-md-2 ps-lg-5  text-dark  d-flex">
+            <Link to="/setting" className="nav-link align-middle px-0 ps-md-2 ps-lg-5  text-dark  d-flex">
               <img src={notselectedMarket} style={{
                 fontSize: '1.6rem', color: '#707995', height: '23.46px'
               }} /> <span
