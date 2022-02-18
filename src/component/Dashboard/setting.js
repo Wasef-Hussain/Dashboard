@@ -31,7 +31,6 @@ function Settings() {
                             <option value="3">Three</option>
                             </select>
 
-
                         </div>
                         <div class="row mt-4">
                             <button class="btn col DarkerBackground Rounded-15 text-green px-4 py-2 " style={{borderRadius:'16px'}}>See</button>

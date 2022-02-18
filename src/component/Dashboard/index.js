@@ -22,7 +22,7 @@ function Dashboard() {
                         </div>
 
                         <div className='playButtonR' >
-                        <BsPlayBtnFill style={{fontSize: "3.5vh", color:"#47FFD33B", background:"#fff"}} />
+                        <BsPlayBtnFill style={{fontSize: "3.5vh", color:"#47FFD33B"}} />
                         <BsStopBtnFill  style={{fontSize: "3.5vh", color:"#E85DD536",marginLeft: "0.4rem"}}/>
                         </div>
                     </div>
