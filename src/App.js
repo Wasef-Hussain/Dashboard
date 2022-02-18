@@ -36,8 +36,8 @@ function App() {
             <div className="col p-5" style={{ background: '#0D1019' }}>
 
               <Switch>
-                <Route path="/" render={() => <Dashboard />} />
-                <Route path="/setting" component={Settings}/>
+                <Route exact path="/" render={() => <Dashboard />} />
+                <Route path="/setting" render={() => <Settings />} />
                 {/* <Route path="/" render={() => <Task />} /> */}
 
               </Switch>
