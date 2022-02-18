@@ -664,5 +664,25 @@ body {
 
 .bitcoinColor{
   color:#3D4665;
+}
+
+.profileInput{
+  width: 100%;
+ background-color:  #151A28;
+ color: #151A28;
   
+}
+
+.textColor{
+color:#3E4760;
+font-family: CircularStd;
+
+}
+
+.inputFieldColor{
+  background-color: #151A28;
+  border-color: #151A28;
+  border-radius: 8px; 
+  font-family: CircularStd;
+
 }

@@ -29,7 +29,67 @@ function Dashboard() {
                 </div>
                 <div className='tableareaa col-12'>
                 <div className='contractTable'>
+                <table class="table text-white">
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Type</td>
+                                <td>Currency</td>
+                                <td>Profile</td>
+                                <td>Status</td>
+                                <td>Actions</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Task name</td>
+                                <td>Buy</td>
+                                <td>ETH</td>
+                                <td>Clifford</td>
+                                <td class="text-green">Checked out!</td>
+                                <td><i class="fas fa-play px-1 Text-Gold"></i><i class="fas fa-pen px-1"></i><i
+                                        class="fas fa-trash px-1 text-danger"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Task name</td>
+                                <td>Buy</td>
+                                <td>ETH</td>
+                                <td>Clifford</td>
+                                <td class="text-green">Checked out!</td>
+                                <td><i class="fas fa-play px-1 Text-Gold"></i><i class="fas fa-pen px-1"></i><i
+                                        class="fas fa-trash px-1 text-danger"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Task name</td>
+                                <td>Buy</td>
+                                <td>ETH</td>
+                                <td>Clifford</td>
+                                <td class="text-green">Checked out!</td>
+                                <td><i class="fas fa-play px-1 Text-Gold"></i><i class="fas fa-pen px-1"></i><i
+                                        class="fas fa-trash px-1 text-danger"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Task name</td>
+                                <td>Buy</td>
+                                <td>ETH</td>
+                                <td>Clifford</td>
+                                <td class="text-green">Checked out!</td>
+                                <td><i class="fas fa-play px-1 Text-Gold"></i><i class="fas fa-pen px-1"></i><i
+                                        class="fas fa-trash px-1 text-danger"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Task name</td>
+                                <td>Buy</td>
+                                <td>ETH</td>
+                                <td>Clifford</td>
+                                <td class="text-green">Checked out!</td>
+                                <td><i class="fas fa-play px-1 Text-Gold"></i><i class="fas fa-pen px-1"></i><i
+                                        class="fas fa-trash px-1 text-danger"></i></td>
+                            </tr>
 
+
+                        </tbody>
+                    </table>
                 </div> 
                 {/* <div className='contractTable2'>
                 </div> 

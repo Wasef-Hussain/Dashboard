@@ -8,6 +8,8 @@ import "./css/fonts.css";
 import "./css/bootstrap.min.css";
 
 import "./css/style.css"
+import "./css/style.css"
+
 
 const history = createMemoryHistory();
 ReactDOM.render(
