@@ -611,3 +611,58 @@ body {
 
 
 }
+
+.bars{
+  width: 52vh;
+  height: 18vh; 
+  border-radius: 10px;
+  background: #fff; 
+  margin-top: 2vh;
+  background: #10131E;
+  border : 1px solid #1B2031;
+  display:flex;
+}
+
+.barBig{
+  width: 52vh;
+  height: 38vh; 
+  border-radius: 10px;
+  background: #fff; 
+  margin-top: 2vh;
+  background: #10131E;
+  border : 1px solid #1B2031;
+  display:flex;
+}
+
+.contractTable{
+  width: 100%;
+  height: 15%; 
+  border-radius: 10px;
+  background: #fff; 
+  margin-top: 2vh;
+  background: #10131E;
+  border : 1px solid #1B2031;
+  display:flex;
+}
+
+.contractTable2{
+  width: 100%;
+  height: 15%; 
+  border-radius: 10px;
+  background: #fff; 
+  margin-top: 2vh;
+  background: #151927;
+  border : 1px solid #1B2031;
+  display:flex;
+}
+
+.cashColor{
+  color:#D0E3FF;
+  font-size:1.6rem;
+  
+}
+
+.bitcoinColor{
+  color:#3D4665;
+  
+}
