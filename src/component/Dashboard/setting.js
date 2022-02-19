@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { facirclecheck, faCheckCircle, faArrowUp } from '@fortawesome/free-solid-svg-icons'
+import { facirclecheck, faCheckCircle, faArrowUp, faCheck, faCross, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
 import { MdSmartDisplay } from "react-icons/md";
@@ -12,10 +12,10 @@ function Settings() {
 
 
     return (
-        <div className='row'>
+        <div class="row">
                 <div class="col p-5">
                     <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         <div class="row">
                             <h3 class="text-white Font-Weight-700"><IoDiceOutline /> Settings</h3>
                         </div>
@@ -58,21 +58,21 @@ function Settings() {
                                 <label for="basic-url" class="form-label textColor">API Key</label>
                                 <div class="input-group mb-3">
                             
-                                <input type="text" class="form-control inputFieldColor" placeholder="4J1A6DioAqFi7xYkccVaFay486x2brXn9YKXPWTegr8A" aria-label="" aria-describedby="button-addon2"/>
-                                {/* <button class="btn btn-outline-secondary" type="button" id="button-addon2" style={{ marginLeft: '5px'}}>Button</button> */}
+                                <input type="text" class="form-control inputFieldColor" style={{fontWeight:'400'}} placeholder="4J1A6DioAqFi7xYkccVaFay486x2brXn9YKXPWTegr8A" aria-label="" aria-describedby="button-addon2"/>
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2" style={{ marginLeft: '1vh', width:'1vh'}}><FontAwesomeIcon icon={faCheck} style={{color:"#47FFD3", marginLeft:'-1vh'}}/></button>
                                 </div>
 
                              <label for="basic-url" class="form-label textColor">API Secret</label>
                                 <div class="input-group mb-3">
                             
-                             <input type="text" class="form-control inputFieldColor" placeholder="4J1A6DioAqFi7xYkccVaFay486x2brXn9YKXPWTegr8A" aria-label="" aria-describedby="button-addon2"/>
-                                 <button class="btn btn-outline-secondary" type="button" id="button-addon2" style={{ marginLeft: '5px'}}>Button</button> 
+                             <input type="text" class="form-control inputFieldColor" style={{fontWeight:'400'}} placeholder="4J1A6DioAqFi7xYkccVaFay486x2brXn9YKXPWTegr8A" aria-label="" aria-describedby="button-addon2"/>
+                                 <button class="btn btn-outline-secondary" type="button" id="button-addon2" style={{ marginLeft: '1vh', width:'1vh'}}><FontAwesomeIcon icon={faTimes} style={{color:"#E85DD561", marginLeft:'-0.8vh'}}/> </button> 
                                 </div>
 
                                 <label for="basic-url" class="form-label textColor">Margin</label>
                                 <div class="input-group mb-3">
                             
-                                <input type="text" class="form-control inputFieldColor" placeholder="$22,784.00" aria-label="" aria-describedby="button-addon2"/>
+                                <input type="text" class="form-control inputFieldColor" style={{fontWeight:'400'}} placeholder="$22,784.00" aria-label="" aria-describedby="button-addon2"/>
                           
                             </div>
 
@@ -87,6 +87,9 @@ function Settings() {
 
                     </div>
                 </div>
+
+                
+                </div>
                 <div className='rightarea'>
                 
                 <div className='col-auto barBig'>
@@ -94,13 +97,8 @@ function Settings() {
                 <h6 className=' newfont' style={{fontFamily:"", color:"#fff"}} >Updates</h6>  
                 </div>
             </div>
-
-
-
                 </div>
-
-               
-        </div>
+        
     )
 }
 
