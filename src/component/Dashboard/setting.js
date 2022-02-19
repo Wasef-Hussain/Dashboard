@@ -83,7 +83,8 @@ function Settings() {
 
                 
                 </div>
-                <div className='rightarea'style={{ backgroundColor:"#0D1019"}} >
+                
+                <div className='rightarea'style={{ backgroundColor:"#0D1019", marginTop:'5vh'}} >
                 
                 <div className='col-auto barBig1' style={{ backgroundColor:"#0D1019", border:'none'}}>
 
@@ -126,10 +127,10 @@ function Settings() {
             </ul>
                 </div>
                 </div>
-
+                </div>
                 
             </div>
-                </div>
+              
         
     )
 }

@@ -41,7 +41,7 @@ function Dashboard() {
                         </thead>
                         <tbody>
                             <tr >
-                                <td class="tableColor nextLine" style={{Color:"#E7EDFF"}}>BTC/USDT — Long</td>
+                                <td class="tableColor btcColorTable">BTC/USDT — Long</td>
                                 <td class="text-green tableColor ">0.006</td>
                                 <td class="tableColor">263.73 USDT</td>
                                 <td class="tableColor">43,955.28</td>
