@@ -708,3 +708,36 @@ font-family: CircularStd;
   border-Color:#47FFD336;
   margin-right:1vh;
 }
+
+.updateText{
+  background: #151927;
+  border : 1px solid #1B2031;
+}
+
+.barBig1{
+  width: 52vh;
+  height: 38vh; 
+  border-radius: 10px;
+  background: #fff; 
+  margin-top: 2vh;
+  background: #10131E;
+  border : 1px solid #1B2031;
+}
+ul.a {
+  font-weight: 700;
+  color: #2D3346;
+
+}
+
+.tableColor{
+  background-color: #151927 !important;
+}
+
+.tableColor1{
+  background-color: #10131E !important;
+}
+ .nextLine .td{
+  
+    white-space: pre;
+  
+ }

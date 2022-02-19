@@ -76,26 +76,58 @@ function Settings() {
                           
                             </div>
 
-                            </div>
-                            
-
-                              
-  
-                                
-                            
+                            </div>                        
                         </div>
-
                     </div>
                 </div>
 
                 
                 </div>
-                <div className='rightarea'>
+                <div className='rightarea'style={{ backgroundColor:"#0D1019"}} >
                 
-                <div className='col-auto barBig'>
+                <div className='col-auto barBig1' style={{ backgroundColor:"#0D1019", border:'none'}}>
 
-                <h6 className=' newfont' style={{fontFamily:"", color:"#fff"}} >Updates</h6>  
+                <h6 className=' newfont' style={{ color:"#fff", border:'none', marginBottom:'3vh'}} >Updates</h6>  
+                
+                <div className="updateText" style={{ backgroundColor:"#0D1019", border:'none'}}>
+                <h6 className=' newfont' style={{fontWeight:"bold", color:"#2D3346"}} >Version 7.7.7.7</h6>  
+               
+                <ul class="a">
+            <li>Added UI/UX Improvements</li>
+            <li>Added UI/UX Improvements</li>
+            <li>Added UI/UX Improvements</li>
+            </ul>
+
+
                 </div>
+
+                <div className='mb-3' style={{ border: '1px solid #212738', width: '100%', marginTop:'2vh', marginBottom:'2vh'}}></div>
+
+
+                <div className="updateText" style={{ backgroundColor:"#0D1019", border:'none'}}>
+                <h6 className=' newfont' style={{fontWeight:"bold", color:"#2D3346"}} >Version 7.7.7.7</h6>  
+               
+                <ul class="a">
+            <li>Added UI/UX Improvements</li>
+            <li>Added UI/UX Improvements</li>
+            <li>Added UI/UX Improvements</li>
+            </ul>
+                </div>
+
+                <div className='mb-3' style={{ border: '1px solid #212738', width: '100%', marginTop:'2vh', marginBottom:'2vh'}}></div>
+
+                <div className="updateText" style={{ backgroundColor:"#0D1019", border:'none'}}>
+                <h6 className=' newfont' style={{fontWeight:"bold", color:"#2D3346"}} >Version 7.7.7.7</h6>  
+               
+                <ul class="a">
+            <li>Added UI/UX Improvements</li>
+            <li>Added UI/UX Improvements</li>
+            <li>Added UI/UX Improvements</li>
+            </ul>
+                </div>
+                </div>
+
+                
             </div>
                 </div>
         

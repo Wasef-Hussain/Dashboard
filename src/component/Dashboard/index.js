@@ -28,77 +28,60 @@ function Dashboard() {
                     </div>
                 </div>
                 <div className='tableareaa col-12'>
-                <div className='contractTable'>
-                <table class="table text-white">
-                        <thead>
-                            <tr>
-                                <td>Name</td>
-                                <td>Type</td>
-                                <td>Currency</td>
-                                <td>Profile</td>
-                                <td>Status</td>
-                                <td>Actions</td>
+                <div className='contractTable' style={{border:"none"}}>
+                <table class="table text-white newfont" style={{backgroundColor:"#10131E"}}>
+                        <thead class="newfont" > 
+                            <tr >
+                                <td>Contracts</td>
+                                <td>Qty</td>
+                                <td>Value</td>
+                                <td>Entry Price</td>
+                                <td>ROE</td>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>Task name</td>
-                                <td>Buy</td>
-                                <td>ETH</td>
-                                <td>Clifford</td>
-                                <td class="text-green">Checked out!</td>
-                                <td><i class="fas fa-play px-1 Text-Gold"></i><i class="fas fa-pen px-1"></i><i
-                                        class="fas fa-trash px-1 text-danger"></i></td>
+                            <tr >
+                                <td class="tableColor nextLine" style={{Color:"#E7EDFF"}}>BTC/USDT — Long</td>
+                                <td class="text-green tableColor ">0.006</td>
+                                <td class="tableColor">263.73 USDT</td>
+                                <td class="tableColor">43,955.28</td>
+                                <td class="text-green tableColor">+2500%</td>
+                                
                             </tr>
                             <tr>
-                                <td>Task name</td>
-                                <td>Buy</td>
-                                <td>ETH</td>
-                                <td>Clifford</td>
-                                <td class="text-green">Checked out!</td>
-                                <td><i class="fas fa-play px-1 Text-Gold"></i><i class="fas fa-pen px-1"></i><i
-                                        class="fas fa-trash px-1 text-danger"></i></td>
+                                <td class="tableColor1">BTC/USDT — Long</td>
+                                <td class="text-green tableColor1">0.006</td>
+                                <td class="tableColor1">263.73 USDT</td>
+                                <td class="tableColor1">43,955.28</td>
+                                <td class="tableColor1">+2500%</td>
+                               
                             </tr>
                             <tr>
-                                <td>Task name</td>
-                                <td>Buy</td>
-                                <td>ETH</td>
-                                <td>Clifford</td>
-                                <td class="text-green">Checked out!</td>
-                                <td><i class="fas fa-play px-1 Text-Gold"></i><i class="fas fa-pen px-1"></i><i
-                                        class="fas fa-trash px-1 text-danger"></i></td>
+                                <td class="tableColor">BTC/USDT — Long</td>
+                                <td class="text-green tableColor ">0.006</td>
+                                <td class="tableColor">263.73 USDT</td>
+                                <td class="tableColor">43,955.28</td>
+                                <td class="text-green tableColor">+2500%</td>
                             </tr>
                             <tr>
-                                <td>Task name</td>
-                                <td>Buy</td>
-                                <td>ETH</td>
-                                <td>Clifford</td>
-                                <td class="text-green">Checked out!</td>
-                                <td><i class="fas fa-play px-1 Text-Gold"></i><i class="fas fa-pen px-1"></i><i
-                                        class="fas fa-trash px-1 text-danger"></i></td>
+                                <td class="tableColor1">BTC/USDT — Long</td>
+                                <td class="text-green tableColor1">0.006</td>
+                                <td class="tableColor1">263.73 USDT</td>
+                                <td class="tableColor1">43,955.28</td>
+                                <td class="tableColor1">+2500%</td>
                             </tr>
                             <tr>
-                                <td>Task name</td>
-                                <td>Buy</td>
-                                <td>ETH</td>
-                                <td>Clifford</td>
-                                <td class="text-green">Checked out!</td>
-                                <td><i class="fas fa-play px-1 Text-Gold"></i><i class="fas fa-pen px-1"></i><i
-                                        class="fas fa-trash px-1 text-danger"></i></td>
+                                <td class="tableColor">BTC/USDT — Long</td>
+                                <td class="text-green tableColor ">0.006</td>
+                                <td class="tableColor">263.73 USDT</td>
+                                <td class="tableColor">43,955.28</td>
+                                <td class="text-green tableColor">+2500%</td>
                             </tr>
 
 
                         </tbody>
                     </table>
                 </div> 
-                {/* <div className='contractTable2'>
-                </div> 
-                <div className='contractTable'>
-                </div> 
-                <div className='contractTable2'>
-                </div> 
-                <div className='contractTable'>
-                </div>  */}
 
 
 
