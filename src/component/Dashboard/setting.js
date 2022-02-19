@@ -24,53 +24,55 @@ function Settings() {
                         </div>
                         <div class="row mt-3 ">
                             
-                            <select class="form-select profileInput" aria-label="Default select example" style={{backgroundColor:'#151A28'}}>
-                            <option selected style={{borderRadius:'16px',backgroundColor:'#151A28'}}>Open this select menu</option>
+                            <select class="form-select profileInput" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                             </select>
 
                         </div>
-                        <div class="row mt-4">
-                            <button class="btn col DarkerBackground Rounded-15 text-green px-4 py-2 " style={{borderRadius:'16px'}}>See</button>
-                            
-                            <button class="btn col btn-danger Rounded-15 ms-3 text-white px-4 py-2" style={{borderRadius:'16px'}}>Deactivate</button>
+                        <div class="row mt-4 ">
+                            <button class="btn col DarkerBackground Rounded-15 text-green px-4 py-2 updateButon">Update</button>
+                        
+                            <button class="btn col btn-danger Rounded-15 ms-3 text-white px-4 py-2 deleteButton">Delete</button>
     
                         </div>
                         <div class="row mt-4">
                         
                             <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-                            <label class="form-check-label" for="inlineRadio1">Mode 1</label>
+                            <label class="form-check-label textColor" for="inlineRadio1">Mode 1</label>
                             </div>
                             <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
-                            <label class="form-check-label" for="inlineRadio2">Mode 2</label>
+                            <label class="form-check-label textColor" for="inlineRadio2">Mode 2</label>
                         </div>
                         </div>
-                        <div className='mb-3' style={{ border: '1px solid #212738', width: '100%'}}></div>
+                        <div className='mb-3' style={{ border: '1px solid #212738', width: '100%', marginTop:'2vh', marginBottom:'2vh'}}></div>
+                        
+
                         <div class="d-flex">
                             <div class="me-auto flex-grow-1">
 
-                            <label for="basic-url" class="form-label textColor">APIs Key</label>
-                            <div class="input-group mb-3">
+                                <label for="basic-url" class="form-label textColor">API Key</label>
+                                <div class="input-group mb-3">
                             
-                            <input type="text" class="form-control inputFieldColor" placeholder="4J1A6DioAqFi7xYkccVaFay486x2brXn9YKXPWTegr8A" aria-label="" aria-describedby="button-addon2"/>
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon2" style={{ marginLeft: '5px'}}>Button</button>
-                            </div>
+                                <input type="text" class="form-control inputFieldColor" placeholder="4J1A6DioAqFi7xYkccVaFay486x2brXn9YKXPWTegr8A" aria-label="" aria-describedby="button-addon2"/>
+                                {/* <button class="btn btn-outline-secondary" type="button" id="button-addon2" style={{ marginLeft: '5px'}}>Button</button> */}
+                                </div>
 
-                            <label for="basic-url" class="form-label textColor">API Secret</label>
-                            <div class="input-group mb-3">
+                             <label for="basic-url" class="form-label textColor">API Secret</label>
+                                <div class="input-group mb-3">
                             
-                            <input type="text" class="form-control inputFieldColor" placeholder="4J1A6DioAqFi7xYkccVaFay486x2brXn9YKXPWTegr8A" aria-label="" aria-describedby="button-addon2"/>
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon2" style={{ marginLeft: '5px'}}>Button</button>
-                            </div>
+                             <input type="text" class="form-control inputFieldColor" placeholder="4J1A6DioAqFi7xYkccVaFay486x2brXn9YKXPWTegr8A" aria-label="" aria-describedby="button-addon2"/>
+                                 <button class="btn btn-outline-secondary" type="button" id="button-addon2" style={{ marginLeft: '5px'}}>Button</button> 
+                                </div>
 
-                            <label for="basic-url" class="form-label textColor">Margin</label>
-                            <div class="input-group mb-3">
+                                <label for="basic-url" class="form-label textColor">Margin</label>
+                                <div class="input-group mb-3">
                             
-                            <input type="text" class="form-control inputFieldColor" placeholder="$22,784.00" aria-label="" aria-describedby="button-addon2"/>
+                                <input type="text" class="form-control inputFieldColor" placeholder="$22,784.00" aria-label="" aria-describedby="button-addon2"/>
                           
                             </div>
 
@@ -85,8 +87,19 @@ function Settings() {
 
                     </div>
                 </div>
+                <div className='rightarea'>
+                
+                <div className='col-auto barBig'>
+
+                <h6 className=' newfont' style={{fontFamily:"", color:"#fff"}} >Updates</h6>  
+                </div>
+            </div>
+
+
 
                 </div>
+
+               
         </div>
     )
 }

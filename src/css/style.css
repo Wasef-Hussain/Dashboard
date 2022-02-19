@@ -669,7 +669,8 @@ body {
 .profileInput{
   width: 100%;
  background-color:#151A28 !important;
- color: #151A28 ;
+ color: #6678A9 !important ;
+ border-radius: 6px !important;
   
 }
 
@@ -685,4 +686,25 @@ font-family: CircularStd;
   border-radius: 8px; 
   font-family: CircularStd;
 
+}
+
+.buttonDivider{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+
+.deleteButton{
+
+  border-radius:6px;
+  background-color:#E85DD536;
+  margin-left:1vh;
+  color:#E85DD5 !important;
+}
+
+.updateButon{
+  border-radius:6px;
+  background-color:#47FFD336;
+  border-Color:#47FFD336;
+  margin-right:1vh;
 }
